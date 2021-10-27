@@ -1,0 +1,22 @@
+{
+    "id": "92465859-fdca-4eeb-c5c4-922e0bf8dbdd",
+    "author": "",
+    "widgets": [
+        {
+            "id": "smart_lighting",
+            "name": "smart_lighting",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
