@@ -82,35 +82,42 @@ if (isActive) {
  
 
                 <MapComponent
-                    mapUrl="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+
+                    // https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png
+
+                    mapUrl="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
+
+                   // mapUrl="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+
                     markers={[  
 
                         {
-                            latitude: 24.5247,
+                            latitude: 25.5247,
                             longitude: 37.5692,
                             data: {
                                 name: "Medina"
                             },
                             customHTMLIcon : {
-                                className : "light green-light",
-                                html : "<div class='more-content'>More</div>",
+                                className : "light green-light light_action_more",
+                                html : "<div class='more_section'><div class='bulb-tungsten'></div><div class='more-content'>12 More</div></div>",
+                               // html : "",
                                 iconSize : [35, 35]
                             }, 
                             renderPopup :{
                                 content : () =>  
                                 
-                                <>
-                                <div className="energy_content">  
+                                <>  
+                               
+                                <div className="energy_content-overall">
+
+                                <div className="energy_content green-energy_content">  
                                     <div className="days">7 days</div>
                                     <div className="section-content">
-                                        <div className="icon"><img src="/images/green-light.png" alt=""></img></div>
+                                        <div className="icon"></div>
                                         <h5>0.3 kW h</h5>
                                         <p>Energy Cosumption</p>  
                                     </div>  
-                                </div>  
-
-                               
-                                <div className="energy_content-overall">
+                                </div>
                                     <div className="lights_more">
                                     <ul>
                                         <li><div className="light green-light"></div></li>
@@ -141,22 +148,97 @@ if (isActive) {
                         
                         {
                             latitude: 24.5247,
-                            longitude: 35.5692,
+                            longitude: 37.5692,
                             data: {
                                 name: "Medina"
                             },
                             customHTMLIcon : {
                                 className : "light green-light",
-                                html : "<div></div>",
+                                html : "<div class='bulb-tungsten'></div>",
                                 iconSize : [35, 35]
                             }, 
                             renderPopup :{
                                 content : () => 
                                 
-                                <div className="energy_content">  
+                                <div className="energy_content green-energy_content">  
                                     <div className="days">7 days</div>
                                     <div className="section-content">
-                                        <div className="icon"><img src="/images/green-light.png" alt=""></img></div>
+                                        <div className="icon"></div>
+                                        <h5>0.3 kW h</h5>
+                                        <p>Energy Cosumption</p>  
+                                    </div>  
+                                </div> 
+                            } 
+                        }, 
+
+                        {
+                            latitude: 27.5247,
+                            longitude: 36.5692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon : {
+                                className : "light green-light",
+                                html : "<div class='bulb-tungsten'></div>",
+                                iconSize : [35, 35]
+                            }, 
+                            renderPopup :{
+                                content : () => 
+                                
+                                <div className="energy_content green-energy_content">  
+                                    <div className="days">7 days</div>
+                                    <div className="section-content">
+                                        <div className="icon"></div>
+                                        <h5>0.3 kW h</h5>
+                                        <p>Energy Cosumption</p>  
+                                    </div>  
+                                </div> 
+                            } 
+                        }, 
+
+                        {
+                            latitude: 23.5247,
+                            longitude: 38.5692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon : {
+                                className : "light green-light",
+                                html : "<div class='bulb-tungsten'></div>",
+                                iconSize : [35, 35]
+                            }, 
+                            renderPopup :{
+                                content : () => 
+                                
+                                <div className="energy_content green-energy_content">   
+                                    <div className="days">7 days</div>
+                                    <div className="section-content">
+                                    <div className="icon"></div>
+                                        <h5>0.3 kW h</h5>
+                                        <p>Energy Cosumption</p>  
+                                    </div>  
+                                </div> 
+                            } 
+                        },
+
+                        {
+                            latitude: 24.5247,
+                            longitude: 31.5692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon : {
+                                className : "light green-light",
+                                html : "<div class='bulb-tungsten'></div>",
+                                iconSize : [35, 35]
+                            }, 
+                            renderPopup :{
+                                content : () => 
+                                
+                                <div className="energy_content green-energy_content">  
+                                    <div className="days">7 days</div>
+                                    <div className="section-content">
+                                        <div className="icon"></div>
                                         <h5>0.3 kW h</h5>
                                         <p>Energy Cosumption</p>  
                                     </div>  
@@ -166,28 +248,29 @@ if (isActive) {
                         
                         {
                             latitude: 24.5247,
-                            longitude: 37.5692,
+                            longitude: 34.5692,
                             data: {
                                 name: "Medina"
                             },
                             customHTMLIcon : {
                                 className : "light green-light",
-                                html : "<div></div>",
+                                html : "<div class='bulb-tungsten'></div>",
                                 iconSize : [35, 35]
                             }, 
                             renderPopup :{
                                 content : () => 
                                 
-                                <div className="energy_content">  
+                                <div className="energy_content green-energy_content">  
                                     <div className="days">7 days</div>
                                     <div className="section-content">
-                                        <div className="icon"><img src="/images/green-light.png" alt=""></img></div>
+                                        <div className="icon"></div>
                                         <h5>0.3 kW h</h5>
                                         <p>Energy Cosumption</p>  
                                     </div>  
                                 </div> 
                             } 
                         }, 
+                        
                         {
                             latitude: 24.5247,
                             longitude: 39.5692,
@@ -196,16 +279,67 @@ if (isActive) {
                             },
                             customHTMLIcon : {
                                 className : "light dark-red-light",
-                                html : "<div></div>",
+                                html : "<div class='bulb-tungsten'></div>",
                                 iconSize : [35, 35]
                             }, 
                             renderPopup :{
                                 content : () => 
                                 
-                                <div className="energy_content">  
+                                <div className="energy_content dark-red-energy_content">  
                                     <div className="days">7 days</div>
                                     <div className="section-content">
-                                        <div className="icon"><img src="/images/dark-red-light.png" alt=""></img></div>
+                                        <div className="icon"></div>
+                                        <h5>0.3 kW h</h5>
+                                        <p>Energy Cosumption</p>  
+                                    </div>  
+                                </div> 
+                            } 
+                        } , 
+
+                        {
+                            latitude: 24.5247,
+                            longitude: 33.5692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon : {
+                                className : "light dark-red-light",
+                                html : "<div class='bulb-tungsten'></div>",
+                                iconSize : [35, 35]
+                            }, 
+                            renderPopup :{
+                                content : () => 
+                                
+                                <div className="energy_content dark-red-energy_content">  
+                                    <div className="days">7 days</div>
+                                    <div className="section-content">
+                                        <div className="icon"></div>
+                                        <h5>0.3 kW h</h5>
+                                        <p>Energy Cosumption</p>  
+                                    </div>  
+                                </div> 
+                            } 
+                        } , 
+
+
+                        {
+                            latitude: 24.5247,
+                            longitude: 33.1692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon : {
+                                className : "light dark-red-light",
+                                html : "<div class='bulb-tungsten'></div>",
+                                iconSize : [35, 35]
+                            }, 
+                            renderPopup :{
+                                content : () => 
+                                
+                                <div className="energy_content dark-red-energy_content"> 
+                                    <div className="days">7 days</div>
+                                    <div className="section-content">
+                                        <div className="icon"></div>
                                         <h5>0.3 kW h</h5>
                                         <p>Energy Cosumption</p>  
                                     </div>  
@@ -221,16 +355,42 @@ if (isActive) {
                             },
                             customHTMLIcon : {
                                 className : "light orange-light",
-                                html : "<div></div>",
+                                html : "<div class='bulb-tungsten'></div>",
                                 iconSize : [35, 35]
                             }, 
                             renderPopup :{
                                 content : () => 
                                 
-                                <div className="energy_content">  
+                                <div className="energy_content orange-energy_content"> 
                                     <div className="days">7 days</div>
                                     <div className="section-content">
-                                        <div className="icon"><img src="/images/orange-light.png" alt=""></img></div>
+                                        <div className="icon"></div>
+                                        <h5>0.3 kW h</h5>
+                                        <p>Energy Cosumption</p>  
+                                    </div>  
+                                </div> 
+                            } 
+                        } ,
+
+
+                        {
+                            latitude: 23.5247,
+                            longitude: 35.5692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon : {
+                                className : "light orange-light",
+                                html : "<div class='bulb-tungsten'></div>",
+                                iconSize : [35, 35]
+                            }, 
+                            renderPopup :{
+                                content : () => 
+                                
+                                <div className="energy_content orange-energy_content"> 
+                                    <div className="days">7 days</div>
+                                    <div className="section-content">
+                                        <div className="icon"></div>
                                         <h5>0.3 kW h</h5>
                                         <p>Energy Cosumption</p>  
                                     </div>  
@@ -246,13 +406,13 @@ if (isActive) {
                             },
                             customHTMLIcon : {
                                 className : "light grey-light",
-                                html : "<div></div>",
+                                html : "<div class='bulb-tungsten'></div>",
                                 iconSize : [35, 35]
                             }, 
                             renderPopup :{
                                 content : () => 
                                 
-                                <div className="energy_content">  
+                                <div className="energy_content grey-energy_content">   
                                     {/* <div className="days">7 days</div> */}
                                     <div className="section-content">
                                         {/* <div className="icon"><img src="/images/grey-light.png" alt=""></img></div> */}
@@ -271,11 +431,10 @@ if (isActive) {
                         console.log(data)
                     }}
                     center={{ position: { latitude: 24.5247, longitude: 39.5692 }, renderMarker: false }}
-                    zoom={7}
+                    zoom={6}
                     maxZoom={10}
                     minZoom ={-10}
-                    regions={regions} 
-                
+                    regions={regions}  
                     zoomOnScroll ={true}
                 /> 
                     
