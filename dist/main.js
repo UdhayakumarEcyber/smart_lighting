@@ -10610,8 +10610,8 @@ const Smart_lightingWidget = (props) => {
                     // mapUrl="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     markers: [
                         {
-                            latitude: 25.5247,
-                            longitude: 37.5692,
+                            latitude: 27.5247,
+                            longitude: 47.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10661,8 +10661,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 24.5247,
-                            longitude: 37.5692,
+                            latitude: 26.5247,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10682,7 +10682,7 @@ const Smart_lightingWidget = (props) => {
                         },
                         {
                             latitude: 27.5247,
-                            longitude: 36.5692,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10701,8 +10701,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 23.5247,
-                            longitude: 38.5692,
+                            latitude: 26.5247,
+                            longitude: 45.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10721,8 +10721,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 24.5247,
-                            longitude: 31.5692,
+                            latitude: 27.5247,
+                            longitude: 50.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10741,8 +10741,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 24.5247,
-                            longitude: 34.5692,
+                            latitude: 28.5247,
+                            longitude: 47.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10761,8 +10761,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 24.5247,
-                            longitude: 39.5692,
+                            latitude: 27.5247,
+                            longitude: 45.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10782,27 +10782,7 @@ const Smart_lightingWidget = (props) => {
                         },
                         {
                             latitude: 24.5247,
-                            longitude: 33.5692,
-                            data: {
-                                name: "Medina"
-                            },
-                            customHTMLIcon: {
-                                className: "light dark-red-light",
-                                html: "<div class='bulb-tungsten'></div>",
-                                iconSize: [35, 35]
-                            },
-                            renderPopup: {
-                                content: () => React.createElement("div", { className: "energy_content dark-red-energy_content" },
-                                    React.createElement("div", { className: "days" }, "7 days"),
-                                    React.createElement("div", { className: "section-content" },
-                                        React.createElement("div", { className: "icon" }),
-                                        React.createElement("h5", null, "0.3 kW h"),
-                                        React.createElement("p", null, "Energy Cosumption")))
-                            }
-                        },
-                        {
-                            latitude: 24.5247,
-                            longitude: 33.1692,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10822,7 +10802,27 @@ const Smart_lightingWidget = (props) => {
                         },
                         {
                             latitude: 22.5247,
-                            longitude: 35.5692,
+                            longitude: 45.1692,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light dark-red-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content dark-red-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            latitude: 26.5247,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10841,8 +10841,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 23.5247,
-                            longitude: 35.5692,
+                            latitude: 25.5247,
+                            longitude: 45.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -10861,8 +10861,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 21.5247,
-                            longitude: 36.5692,
+                            latitude: 26.5247,
+                            longitude: 42.5692,
                             data: {
                                 name: "Medina"
                             },

@@ -92,8 +92,8 @@ if (isActive) {
                     markers={[  
 
                         {
-                            latitude: 25.5247,
-                            longitude: 37.5692,
+                            latitude: 27.5247,
+                            longitude: 47.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -147,8 +147,8 @@ if (isActive) {
                         },
                         
                         {
-                            latitude: 24.5247,
-                            longitude: 37.5692,
+                            latitude: 26.5247,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -173,7 +173,7 @@ if (isActive) {
 
                         {
                             latitude: 27.5247,
-                            longitude: 36.5692,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -197,8 +197,8 @@ if (isActive) {
                         }, 
 
                         {
-                            latitude: 23.5247,
-                            longitude: 38.5692,
+                            latitude: 26.5247,
+                            longitude: 45.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -222,8 +222,8 @@ if (isActive) {
                         },
 
                         {
-                            latitude: 24.5247,
-                            longitude: 31.5692,
+                            latitude: 27.5247,
+                            longitude: 50.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -247,8 +247,8 @@ if (isActive) {
                         }, 
                         
                         {
-                            latitude: 24.5247,
-                            longitude: 34.5692,
+                            latitude: 28.5247,
+                            longitude: 47.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -272,8 +272,8 @@ if (isActive) {
                         }, 
                         
                         {
-                            latitude: 24.5247,
-                            longitude: 39.5692,
+                            latitude: 27.5247,
+                            longitude: 45.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -298,7 +298,7 @@ if (isActive) {
 
                         {
                             latitude: 24.5247,
-                            longitude: 33.5692,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -323,8 +323,8 @@ if (isActive) {
 
 
                         {
-                            latitude: 24.5247,
-                            longitude: 33.1692,
+                            latitude: 22.5247,
+                            longitude: 45.1692,
                             data: {
                                 name: "Medina"
                             },
@@ -348,8 +348,8 @@ if (isActive) {
                         } , 
 
                         {
-                            latitude: 22.5247,
-                            longitude: 35.5692,
+                            latitude: 26.5247,
+                            longitude: 46.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -374,8 +374,8 @@ if (isActive) {
 
 
                         {
-                            latitude: 23.5247,
-                            longitude: 35.5692,
+                            latitude: 25.5247,
+                            longitude: 45.5692,
                             data: {
                                 name: "Medina"
                             },
@@ -399,8 +399,8 @@ if (isActive) {
                         } ,
 
                         {
-                            latitude: 21.5247,
-                            longitude: 36.5692,
+                            latitude: 26.5247,
+                            longitude: 42.5692,
                             data: {
                                 name: "Medina"
                             },
