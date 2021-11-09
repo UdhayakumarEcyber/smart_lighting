@@ -108,7 +108,7 @@ module.exports = JSON.parse("{\"id\":\"92465859-fdca-4eeb-c5c4-922e0bf8dbdd\",\"
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".smart_light .smart-light-box {\n  justify-content: space-between;\n  align-items: center;\n  padding: 0px 0px;\n  min-height: 60px;\n  flex-grow: 0;\n  background-color: #000000;\n  color: #ffffff78;\n  width: 40%;\n  border-radius: 10px;\n  position: absolute;\n  bottom: 2em;\n  left: 2em;\n  z-index: 1;\n  outline: none; }\n  .smart_light .smart-light-box:before {\n    content: \"\";\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: -1;\n    margin: 0px;\n    border: 2px solid transparent;\n    background: linear-gradient(180deg, #8A1538, #20EBCC, #B71742, #C00A3A) border-box;\n    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);\n    -webkit-mask-composite: destination-out;\n    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);\n    mask-composite: destination-out;\n    mask-composite: exclude;\n    border-radius: 10px;\n    outline: none; }\n  .smart_light .smart-light-box .smart-light-box-top {\n    display: inline-flex;\n    width: 100%;\n    padding: 15px 15px; }\n    .smart_light .smart-light-box .smart-light-box-top .smart-light-box_lft {\n      display: inline-block;\n      width: 50%; }\n      .smart_light .smart-light-box .smart-light-box-top .smart-light-box_lft h4 {\n        display: inline-block;\n        font-size: 1.1em;\n        color: #fff; }\n    .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht {\n      display: inline-block;\n      width: 50%; }\n      .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht .showcase-input {\n        width: 100% !important;\n        padding: 0; }\n        .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht .showcase-input .uxp-form-select {\n          min-width: 100%; }\n  .smart_light .smart-light-box .smart-light-box_details {\n    display: inline-block;\n    width: 100%; }\n    .smart_light .smart-light-box .smart-light-box_details .data-grid {\n      background-color: transparent;\n      border: 1px solid #77777763; }\n      .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column {\n        border: 0px solid #77777763;\n        height: 50%; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column:nth-child(odd) {\n          border-right: 1px solid #77777763; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column:first-child {\n          border-bottom: 1px solid #77777763; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column:nth-child(2) {\n          border-bottom: 1px solid #77777763; }\n      .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card {\n        background-color: transparent;\n        display: inline-block; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .item-card-image-container {\n          position: inherit;\n          transform: none;\n          left: 0;\n          top: 0; }\n          .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .item-card-image-container .profile-image-container {\n            background-color: transparent !important;\n            width: 22px;\n            height: 22px;\n            opacity: 0.8; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content {\n          margin-left: 0;\n          padding: 5px 0;\n          text-align: center; }\n          .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3 {\n            margin: 0;\n            padding: 0;\n            font-weight: 500;\n            font-size: 1.65em; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3.green {\n              color: #4FC8AC; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3.pink {\n              color: #FF5D88; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3.orange {\n              color: #FF9A36; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3 span.white {\n              color: #ffffffb8; }\n          .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .sub-title {\n            font-size: 9px;\n            padding: 3px 0;\n            text-transform: uppercase;\n            line-height: 1.4em;\n            width: 100%;\n            color: #fff; }\n\n.smart_light .transport_map {\n  width: 100%;\n  display: inline-block;\n  height: 100%; }\n  .smart_light .transport_map .transport_map-sec {\n    position: relative;\n    z-index: 0; }\n  .smart_light .transport_map .light-components {\n    position: absolute;\n    left: 50%;\n    top: 20%;\n    z-index: 15; }\n    .smart_light .transport_map .light-components .light {\n      display: inline-block;\n      background-position: center center;\n      background-repeat: no-repeat;\n      background-size: contain;\n      width: 35px;\n      height: 35px;\n      cursor: pointer; }\n      .smart_light .transport_map .light-components .light.green-light {\n        background-image: url(/images/green-light.png); }\n      .smart_light .transport_map .light-components .light.dark-red-light {\n        background-image: url(/images/dark-red-light.png); }\n      .smart_light .transport_map .light-components .light.orange-light {\n        background-image: url(/images/orange-light.png); }\n    .smart_light .transport_map .light-components .energy_content {\n      display: none;\n      background-color: #000000;\n      width: 150px;\n      position: absolute;\n      right: 5em;\n      bottom: -5em;\n      border-radius: 10px;\n      padding: 10px; }\n    .smart_light .transport_map .light-components .energy_content_toggle {\n      display: block; }\n      .smart_light .transport_map .light-components .energy_content_toggle .days {\n        display: inline-block;\n        position: absolute;\n        top: 1em;\n        right: 1em;\n        color: #ffffff;\n        font-size: 0.7em; }\n      .smart_light .transport_map .light-components .energy_content_toggle .section-content {\n        display: inline-block;\n        width: 100%; }\n        .smart_light .transport_map .light-components .energy_content_toggle .section-content .icon {\n          display: inline-block; }\n        .smart_light .transport_map .light-components .energy_content_toggle .section-content h5 {\n          display: inline-block;\n          width: 100%;\n          color: #ffffff;\n          font-size: 1.2em;\n          padding: 5px 0 5px 0px;\n          margin: 0; }\n        .smart_light .transport_map .light-components .energy_content_toggle .section-content p {\n          color: #ffffff;\n          font-size: 0.8em;\n          padding: 5px 0 5px 0px;\n          margin: 0; }\n\n.smart_light .light {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n  border-radius: 50%; }\n  .smart_light .light.green-light {\n    background-color: #008974; }\n  .smart_light .light.dark-red-light {\n    background-color: #c00a3a; }\n  .smart_light .light.orange-light {\n    background-color: #ff9a36; }\n  .smart_light .light.grey-light {\n    background-color: #574d50; }\n  .smart_light .light .bulb-tungsten {\n    background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bulb-tungsten.png);\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    width: 20px;\n    height: 20px;\n    transform: translate(35%, 32%); }\n  .smart_light .light.light_action_more {\n    border-radius: 22px 10px 0px 22px; }\n\n.smart_light .leaflet-popup-content-wrapper {\n  box-shadow: none;\n  border: none;\n  outline: none; }\n\n.smart_light .leaflet-popup a.leaflet-popup-close-button {\n  top: 2px;\n  right: -2px;\n  width: 30px;\n  height: 30px;\n  font: 21px/14px Tahoma, Verdana, sans-serif; }\n\n.smart_light .leaflet-popup .leaflet-popup-content-wrapper {\n  padding: 0; }\n  .smart_light .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content {\n    margin: 0; }\n  .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content {\n    background-color: #000000;\n    border-radius: 12px;\n    padding: 13px 19px;\n    outline: none; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .days {\n      display: inline-block;\n      position: absolute;\n      top: 3em;\n      right: 1em;\n      color: #ffffff;\n      font-size: 0.7em; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content {\n      display: inline-block;\n      width: 100%; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content .icon {\n        display: inline-block;\n        position: relative;\n        left: -1em;\n        width: 35px;\n        height: 35px;\n        cursor: pointer;\n        border-radius: 50%; }\n        .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content .icon:before {\n          content: \"\";\n          position: absolute;\n          top: 0;\n          right: 0;\n          bottom: 0;\n          left: 0;\n          margin: 0px;\n          background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bulb-tungsten.png);\n          background-position: center center;\n          background-repeat: no-repeat;\n          background-size: contain;\n          width: 20px;\n          height: 20px;\n          transform: translate(35%, 32%); }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content h5 {\n        display: inline-block;\n        width: 100%;\n        color: #ffffff;\n        font-size: 1.2em;\n        padding: 5px 0 5px 0px;\n        margin: 0; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content p {\n        color: #ffffff;\n        font-size: 0.8em;\n        padding: 5px 0 5px 0px;\n        margin: 0; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.green-energy_content {\n      border: 0.001em solid #008974; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.green-energy_content .icon {\n        background: #008974; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.dark-red-energy_content {\n      border: 0.001em solid #c00a3a; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.dark-red-energy_content .icon {\n        background: #c00a3a; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.orange-energy_content {\n      border: 0.001em solid #ff9a36; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.orange-energy_content .icon {\n        background: #ff9a36; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.grey-energy_content {\n      border: 0.001em solid #574d50; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.grey-energy_content .icon {\n        background: #574d50; }\n\n.smart_light .leaflet-popup .lights_more {\n  display: inline-block;\n  margin-top: 1em;\n  width: 100%; }\n  .smart_light .leaflet-popup .lights_more ul {\n    display: inline-block;\n    padding: 0;\n    margin: 0;\n    width: 100%; }\n    .smart_light .leaflet-popup .lights_more ul li {\n      display: inline-block;\n      width: 25%;\n      text-align: center; }\n      .smart_light .leaflet-popup .lights_more ul li .light {\n        position: relative; }\n        .smart_light .leaflet-popup .lights_more ul li .light:before {\n          content: \"\";\n          position: absolute;\n          top: 0;\n          right: 0;\n          bottom: 0;\n          left: 0;\n          margin: 0px;\n          background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bulb-tungsten.png);\n          background-position: center center;\n          background-repeat: no-repeat;\n          background-size: contain;\n          width: 20px;\n          height: 20px;\n          transform: translate(35%, 32%); }\n\n.smart_light .more_section .light .bulb-tungsten {\n  background-size: contain; }\n\n.smart_light .more_section .more-content {\n  color: #fff;\n  background: #008974;\n  border-radius: 0px 22px 22px 0px;\n  padding: 10px 0 9px 0;\n  width: 5.8em;\n  text-align: center;\n  position: absolute;\n  left: 24px;\n  font-size: 0.9em;\n  top: 0px; }\n\n.smart_light .uxp-form-select .uxp-select-placeholder.dynamic-select {\n  background: #999999; }\n\n.smart_light .uxp-form-select .uxp-select-placeholder .selected {\n  color: #000; }\n", ""]);
+exports.push([module.i, ".smart_light .smart-light-box {\n  justify-content: space-between;\n  align-items: center;\n  padding: 0px 0px;\n  min-height: 60px;\n  flex-grow: 0;\n  background-color: #000000;\n  color: #ffffff78;\n  width: 40%;\n  border-radius: 10px;\n  position: absolute;\n  bottom: 2em;\n  left: 2em;\n  z-index: 1;\n  outline: none; }\n  .smart_light .smart-light-box:before {\n    content: \"\";\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0;\n    z-index: -1;\n    margin: 0px;\n    border: 2px solid transparent;\n    background: linear-gradient(180deg, #8A1538, #20EBCC, #B71742, #C00A3A) border-box;\n    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);\n    -webkit-mask-composite: destination-out;\n    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);\n    mask-composite: destination-out;\n    mask-composite: exclude;\n    border-radius: 10px;\n    outline: none; }\n  .smart_light .smart-light-box .smart-light-box-top {\n    display: inline-flex;\n    width: 100%;\n    padding: 15px 15px; }\n    .smart_light .smart-light-box .smart-light-box-top .smart-light-box_lft {\n      display: inline-block;\n      width: 50%; }\n      .smart_light .smart-light-box .smart-light-box-top .smart-light-box_lft h4 {\n        display: inline-block;\n        font-size: 1.1em;\n        color: #fff; }\n    .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht {\n      display: inline-block;\n      width: 50%; }\n      .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht .showcase-input {\n        width: 100% !important;\n        padding: 0; }\n        .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht .showcase-input .uxp-form-select {\n          min-width: 100%; }\n          .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht .showcase-input .uxp-form-select .uxp-select-placeholder.dynamic-select {\n            background: #dcdcdc; }\n          .smart_light .smart-light-box .smart-light-box-top .smart-light-box_rht .showcase-input .uxp-form-select .uxp-select-placeholder.valid:before {\n            filter: none; }\n  .smart_light .smart-light-box .smart-light-box_details {\n    display: inline-block;\n    width: 100%; }\n    .smart_light .smart-light-box .smart-light-box_details .data-grid {\n      background-color: transparent;\n      border: 1px solid #77777763; }\n      .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column {\n        border: 0px solid #77777763;\n        height: 50%; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column:nth-child(odd) {\n          border-right: 1px solid #77777763; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column:first-child {\n          border-bottom: 1px solid #77777763; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .data-grid-column:nth-child(2) {\n          border-bottom: 1px solid #77777763; }\n      .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card {\n        background-color: transparent;\n        display: inline-block; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .item-card-image-container {\n          position: inherit;\n          transform: none;\n          left: 0;\n          top: 0; }\n          .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .item-card-image-container .profile-image-container {\n            background-color: transparent !important;\n            width: 22px;\n            height: 22px;\n            opacity: 0.8; }\n        .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content {\n          margin-left: 0;\n          padding: 5px 0;\n          text-align: center; }\n          .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3 {\n            margin: 0;\n            padding: 0;\n            font-weight: 500;\n            font-size: 1.65em; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3.green {\n              color: #4FC8AC; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3.pink {\n              color: #FF5D88; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3.orange {\n              color: #FF9A36; }\n            .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .title h3 span.white {\n              color: #574d50; }\n          .smart_light .smart-light-box .smart-light-box_details .data-grid .item-card .content .sub-title {\n            font-size: 9px;\n            padding: 3px 0;\n            text-transform: uppercase;\n            line-height: 1.4em;\n            width: 100%;\n            color: #fff; }\n\n.smart_light .transport_map {\n  width: 100%;\n  display: inline-block;\n  height: 100%; }\n  .smart_light .transport_map .transport_map-sec {\n    position: relative;\n    z-index: 0; }\n  .smart_light .transport_map .light-components {\n    position: absolute;\n    left: 50%;\n    top: 20%;\n    z-index: 15; }\n    .smart_light .transport_map .light-components .light {\n      display: inline-block;\n      background-position: center center;\n      background-repeat: no-repeat;\n      background-size: contain;\n      width: 35px;\n      height: 35px;\n      cursor: pointer; }\n      .smart_light .transport_map .light-components .light.green-light {\n        background-image: url(/images/green-light.png); }\n      .smart_light .transport_map .light-components .light.dark-red-light {\n        background-image: url(/images/dark-red-light.png); }\n      .smart_light .transport_map .light-components .light.orange-light {\n        background-image: url(/images/orange-light.png); }\n    .smart_light .transport_map .light-components .energy_content {\n      display: none;\n      background-color: #000000;\n      width: 150px;\n      position: absolute;\n      right: 5em;\n      bottom: -5em;\n      border-radius: 10px;\n      padding: 10px; }\n    .smart_light .transport_map .light-components .energy_content_toggle {\n      display: block; }\n      .smart_light .transport_map .light-components .energy_content_toggle .days {\n        display: inline-block;\n        position: absolute;\n        top: 1em;\n        right: 1em;\n        color: #ffffff;\n        font-size: 0.7em; }\n      .smart_light .transport_map .light-components .energy_content_toggle .section-content {\n        display: inline-block;\n        width: 100%; }\n        .smart_light .transport_map .light-components .energy_content_toggle .section-content .icon {\n          display: inline-block; }\n        .smart_light .transport_map .light-components .energy_content_toggle .section-content h5 {\n          display: inline-block;\n          width: 100%;\n          color: #ffffff;\n          font-size: 1.2em;\n          padding: 5px 0 5px 0px;\n          margin: 0; }\n        .smart_light .transport_map .light-components .energy_content_toggle .section-content p {\n          color: #ffffff;\n          font-size: 0.8em;\n          padding: 5px 0 5px 0px;\n          margin: 0; }\n\n.smart_light .light {\n  display: inline-block;\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n  border-radius: 50%; }\n  .smart_light .light.green-light {\n    background-color: #008974; }\n  .smart_light .light.dark-red-light {\n    background-color: #c00a3a; }\n  .smart_light .light.orange-light {\n    background-color: #ff9a36; }\n  .smart_light .light.grey-light {\n    background-color: #574d50; }\n  .smart_light .light .bulb-tungsten {\n    background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bulb-tungsten.png);\n    background-position: center center;\n    background-repeat: no-repeat;\n    background-size: contain;\n    width: 20px;\n    height: 20px;\n    transform: translate(35%, 32%); }\n  .smart_light .light.light_action_more {\n    border-radius: 22px 10px 0px 22px; }\n\n.smart_light .leaflet-popup-content-wrapper {\n  box-shadow: none;\n  border: none;\n  outline: none; }\n\n.smart_light .leaflet-popup a.leaflet-popup-close-button {\n  top: 2px;\n  right: -2px;\n  width: 30px;\n  height: 30px;\n  font: 21px/14px Tahoma, Verdana, sans-serif; }\n\n.smart_light .leaflet-popup .leaflet-popup-content-wrapper {\n  padding: 0; }\n  .smart_light .leaflet-popup .leaflet-popup-content-wrapper .leaflet-popup-content {\n    margin: 0; }\n  .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content {\n    background-color: #000000;\n    border-radius: 12px;\n    padding: 13px 19px;\n    outline: none; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .days {\n      display: inline-block;\n      position: absolute;\n      top: 3em;\n      right: 1em;\n      color: #ffffff;\n      font-size: 0.7em; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content {\n      display: inline-block;\n      width: 100%; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content .icon {\n        display: inline-block;\n        position: relative;\n        left: -1em;\n        width: 35px;\n        height: 35px;\n        cursor: pointer;\n        border-radius: 50%; }\n        .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content .icon:before {\n          content: \"\";\n          position: absolute;\n          top: 0;\n          right: 0;\n          bottom: 0;\n          left: 0;\n          margin: 0px;\n          background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bulb-tungsten.png);\n          background-position: center center;\n          background-repeat: no-repeat;\n          background-size: contain;\n          width: 20px;\n          height: 20px;\n          transform: translate(35%, 32%); }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content h5 {\n        display: inline-block;\n        width: 100%;\n        color: #ffffff;\n        font-size: 1.2em;\n        padding: 5px 0 5px 0px;\n        margin: 0; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content .section-content p {\n        color: #ffffff;\n        font-size: 0.8em;\n        padding: 5px 0 5px 0px;\n        margin: 0; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.green-energy_content {\n      border: 0.001em solid #008974; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.green-energy_content .icon {\n        background: #008974; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.dark-red-energy_content {\n      border: 0.001em solid #c00a3a; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.dark-red-energy_content .icon {\n        background: #c00a3a; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.orange-energy_content {\n      border: 0.001em solid #ff9a36; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.orange-energy_content .icon {\n        background: #ff9a36; }\n    .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.grey-energy_content {\n      border: 0.001em solid #574d50; }\n      .smart_light .leaflet-popup .leaflet-popup-content-wrapper .energy_content.grey-energy_content .icon {\n        background: #574d50; }\n\n.smart_light .leaflet-popup .lights_more {\n  display: inline-block;\n  margin-top: 1em;\n  width: 100%; }\n  .smart_light .leaflet-popup .lights_more ul {\n    display: inline-block;\n    padding: 0;\n    margin: 0;\n    width: 100%; }\n    .smart_light .leaflet-popup .lights_more ul li {\n      display: inline-block;\n      width: 25%;\n      text-align: center; }\n      .smart_light .leaflet-popup .lights_more ul li .light {\n        position: relative; }\n        .smart_light .leaflet-popup .lights_more ul li .light:before {\n          content: \"\";\n          position: absolute;\n          top: 0;\n          right: 0;\n          bottom: 0;\n          left: 0;\n          margin: 0px;\n          background-image: url(https://static.iviva.com/images/uxp-generic-widgets/bulb-tungsten.png);\n          background-position: center center;\n          background-repeat: no-repeat;\n          background-size: contain;\n          width: 20px;\n          height: 20px;\n          transform: translate(35%, 32%); }\n\n.smart_light .more_section .light .bulb-tungsten {\n  background-size: contain; }\n\n.smart_light .more_section .more-content {\n  color: #fff;\n  background: #008974;\n  border-radius: 0px 22px 22px 0px;\n  padding: 10px 0 9px 0;\n  width: 5.8em;\n  text-align: center;\n  position: absolute;\n  left: 24px;\n  font-size: 0.9em;\n  top: 0px; }\n\n.smart_light #uxp-map-component-container {\n  background: #2c2e31; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -551,8 +551,8 @@ const Smart_lightingWidget = (props) => {
             subTitle: "Lights Offline"
         },
         {
-            title: React.createElement("h3", { className: "green" }, "2 kW h"),
-            subTitle: "Energy Cosumption"
+            title: React.createElement("h3", { className: "white" }, "0 kW h"),
+            subTitle: "Not Working"
         },
         {
             title: React.createElement("h3", { className: "orange" }, "35 days"),
@@ -562,6 +562,12 @@ const Smart_lightingWidget = (props) => {
     const renderGridItem = (item, key) => {
         return (React.createElement(components_1.ItemCard, { item: item, imageField: "icon", titleField: "title", subTitleField: "subTitle", nameField: "name" }));
     };
+    function addMarker(latlng) {
+        let W = window;
+        if (!W.Markers)
+            W.Markers = [];
+        W.Markers.push(latlng);
+    }
     const [isActive, setActive] = React.useState(false);
     const toggleClass = () => {
         setActive(!isActive);
@@ -584,6 +590,7 @@ const Smart_lightingWidget = (props) => {
                         console.log(data);
                     }, onClick: (e) => {
                         console.log("Hi", e);
+                        addMarker(e.latlng);
                     }, center: { position: { latitude: 862, longitude: 1020 }, renderMarker: false }, zoom: -1, maxZoom: 10, minZoom: -10, regions: regions, zoomOnScroll: true, markers: [
                         //     {
                         //           latitude: 0,
@@ -594,8 +601,8 @@ const Smart_lightingWidget = (props) => {
                         //         longitude: 2880, 
                         //   }
                         {
-                            latitude: 1006.6999969482422,
-                            longitude: 1232,
+                            latitude: 913,
+                            longitude: 1836,
                             data: {
                                 name: "Medina"
                             },
@@ -645,8 +652,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 1146.6999969482422,
-                            longitude: 786,
+                            latitude: 903,
+                            longitude: 1682,
                             data: {
                                 name: "Medina"
                             },
@@ -665,8 +672,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 654.6999969482422,
-                            longitude: 970,
+                            latitude: 871,
+                            longitude: 1498,
                             data: {
                                 name: "Medina"
                             },
@@ -685,8 +692,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 958.6999969482422,
-                            longitude: 1658,
+                            latitude: 951,
+                            longitude: 1494,
                             data: {
                                 name: "Medina"
                             },
@@ -705,8 +712,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 980.6999969482422,
-                            longitude: 574,
+                            latitude: 979,
+                            longitude: 1702,
                             data: {
                                 name: "Medina"
                             },
@@ -725,8 +732,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 860.6999969482422,
-                            longitude: 1642,
+                            latitude: 993,
+                            longitude: 1888,
                             data: {
                                 name: "Medina"
                             },
@@ -745,8 +752,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 760.6999969482422,
-                            longitude: 1210,
+                            latitude: 787,
+                            longitude: 1308,
                             data: {
                                 name: "Medina"
                             },
@@ -765,8 +772,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 1006.6999969482422,
-                            longitude: 946,
+                            latitude: 651,
+                            longitude: 1208,
                             data: {
                                 name: "Medina"
                             },
@@ -785,8 +792,8 @@ const Smart_lightingWidget = (props) => {
                             }
                         },
                         {
-                            latitude: 896.6999969482422,
-                            longitude: 1424,
+                            latitude: 1073,
+                            longitude: 1288,
                             data: {
                                 name: "Medina"
                             },
@@ -818,7 +825,208 @@ const Smart_lightingWidget = (props) => {
                             renderPopup: {
                                 content: () => React.createElement("div", { className: "energy_content grey-energy_content" },
                                     React.createElement("div", { className: "section-content" },
-                                        React.createElement("h5", null, "Empty")))
+                                        React.createElement("h5", null, "Offline")))
+                            }
+                        },
+                        /////////
+                        {
+                            "latitude": 1137,
+                            "longitude": 1192,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 1177,
+                            "longitude": 1112,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 1203,
+                            "longitude": 1032,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 1223,
+                            "longitude": 922,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 589,
+                            "longitude": 1120,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 583,
+                            "longitude": 1024,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 575,
+                            "longitude": 928,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 585,
+                            "longitude": 844,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 869,
+                            "longitude": 1318,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
+                            }
+                        },
+                        {
+                            "latitude": 963,
+                            "longitude": 1318,
+                            data: {
+                                name: "Medina"
+                            },
+                            customHTMLIcon: {
+                                className: "light green-light",
+                                html: "<div class='bulb-tungsten'></div>",
+                                iconSize: [35, 35]
+                            },
+                            renderPopup: {
+                                content: () => React.createElement("div", { className: "energy_content green-energy_content" },
+                                    React.createElement("div", { className: "days" }, "7 days"),
+                                    React.createElement("div", { className: "section-content" },
+                                        React.createElement("div", { className: "icon" }),
+                                        React.createElement("h5", null, "0.3 kW h"),
+                                        React.createElement("p", null, "Energy Cosumption")))
                             }
                         }
                     ] }))),
@@ -831,9 +1039,9 @@ const Smart_lightingWidget = (props) => {
                         React.createElement("div", { className: "uti-sel-box" },
                             React.createElement(components_1.FormField, { inline: true, className: "showcase-input" },
                                 React.createElement(components_1.Select, { selected: selected, options: [
-                                        { label: "Global Lighting", value: "op-1" },
-                                        { label: "Global Lighting 2", value: "op-2" },
-                                        { label: "Global Lighting 3", value: "op-3" }
+                                        { label: "Entire City", value: "op-1" },
+                                        { label: "Hotels", value: "op-2" },
+                                        { label: "Hospital", value: "op-3" }
                                     ], onChange: (value) => { setSelected(value); }, placeholder: " -- select --" })))))),
             React.createElement("div", { className: "smart-light-box_details" },
                 React.createElement(components_1.DataGrid, { data: GridData, renderItem: renderGridItem, columns: 2 })))));

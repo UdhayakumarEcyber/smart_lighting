@@ -69,6 +69,13 @@
 
                     .uxp-form-select {
                         min-width: 100%;
+
+                        .uxp-select-placeholder.dynamic-select {
+                            background: #dcdcdc;
+                        }
+                        .uxp-select-placeholder.valid:before{
+                            filter: none;
+                        }
                     }
                 }
 
@@ -143,7 +150,7 @@
                                         color: #FF9A36;
                                     }
                                     span.white{
-                                        color:#ffffffb8;
+                                        color:#574d50;
                                     }
                                 }
                         } 
@@ -497,10 +504,15 @@
 
 
 
-.uxp-form-select .uxp-select-placeholder.dynamic-select {
-    background: #999999;
-}
-.uxp-form-select .uxp-select-placeholder .selected { 
-    color: #000;
-}
-}
+    // .uxp-form-select .uxp-select-placeholder.dynamic-select {
+    //     background: #999999;
+    // }
+    // .uxp-form-select .uxp-select-placeholder .selected { 
+    //     color: #000;
+    // }
+
+    #uxp-map-component-container{
+        background: #2c2e31;
+    }
+  }
+
